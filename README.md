@@ -1,8 +1,5 @@
 A production-ready Next.js 16 SaaS starter with auth, payments, file storage, and i18n — built to ship fast.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
-[![Star History Chart](https://img.shields.io/github/stars/justnode/better-saas?style=social)](https://github.com/justnode/better-saas)
-
 ---
 
 ## What's included
@@ -26,8 +23,8 @@ A production-ready Next.js 16 SaaS starter with auth, payments, file storage, an
 **Prerequisites:** Node.js 18+, pnpm, PostgreSQL
 
 ```bash
-git clone https://github.com/justnode/better-saas
-cd better-saas
+git clone https://github.com/ZaMc83/modern-full-stack-saas-app
+cd modern-full-stack-saas-app
 pnpm install
 cp env.example .env
 ```
@@ -79,12 +76,6 @@ All feature flags and settings live in `src/config/`:
 - `credits.config.ts` — per-action credit costs
 - `navbar.config.ts` — navigation links
 - `appearance.config.ts` — theme defaults
-
----
-
-## Docs
-
-Full documentation at **[better-saas.org/docs](https://www.better-saas.org/docs)**
 
 ---
 
